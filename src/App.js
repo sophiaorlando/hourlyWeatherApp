@@ -1,4 +1,10 @@
+import Chart from "./utils/Chart"
+import Chart2 from "./utils/Chart2"
+import SunriseChart from "./utils/Chart3"
+import PieChart from "./utils/PieChart"
 
+
+// import API from "./utils/API"
 // import './App.css';
 import './index.css'
 
@@ -9,11 +15,11 @@ const api = {
 
 }
 
+
 function ExtraInfo() {
 
   const [query, setQuery] = useState('')
   const [hourly, setHourly] = useState({})
-  // const [hourly, setHourly] = useState({})
 
 
   const search = evt => {
@@ -64,7 +70,7 @@ function ExtraInfo() {
             value={query}
             onKeyPress={search}
           />
-        </div>
+        </div> 
           {(typeof hourly.location != "undefined") ? (
 
             <div>
@@ -260,6 +266,12 @@ function ExtraInfo() {
 
         ) : ('')
         }
+<Chart data={hourly}/>
+<Chart2 data={hourly}/>
+<SunriseChart data={hourly}/>
+<PieChart data={hourly}/>
+
+
 
       </main >
     </div >

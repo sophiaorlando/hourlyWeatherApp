@@ -2,6 +2,9 @@
 
 ### This application uses React Library and is designed to give users detailed information about the present, past, and future weather in any city you can think of. 
 
+## Deployed Application:
+https://guarded-citadel-48915.herokuapp.com/
+
 ## Languages Used:
 * Javascript
 

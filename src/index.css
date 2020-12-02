@@ -162,25 +162,12 @@ h1{
 }
 #hourlyHeader{
   margin-top:0px;
-  font-size: 80px;
+  font-size: 30px;
 
 }
 
 #frontPage{
   height:100vh;
-}
-
-.currentRow{
-  background-color: rgba(255,255,255,0.2);
-  font-size:25px;
-font-weight:900;
-text-shadow: 2px 2px 4px rgba(50, 50, 70, 0.5);
-padding:30px;
-border-radius: 15px;
-color:white;
-margin-right:100px;
-margin-left:100px;
-margin-top:50px;
 }
 
 .hourlyFlipCard{
@@ -192,10 +179,7 @@ margin-top:50px;
   margin-right:0px;
 margin-left:0px;
 margin-top:0px;
-
-}
-
-.dayOneHourly{
+display:flex
 
 }
 
@@ -205,10 +189,6 @@ font-size: 20px;
 }
 #blue{
   color:blue;
-}
-
-.row {
-  display: flex;
 }
 
 #column {

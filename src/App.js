@@ -9,7 +9,7 @@ import './index.css'
 import React, { useEffect, useState } from 'react';
 const api = {
   key: "19787e47944e4b65b7820523202011",
-  base: "http://api.weatherapi.com/v1/forecast.json?"
+  base: "https://api.weatherapi.com/v1/forecast.json?"
 
 }
 
